@@ -1,18 +1,6 @@
-interface ProjectProps {
-  title: string;
-  desc: string;
-  tags: string[];
-  github: string;
-  demo: string;
-}
+import { ProjectProps } from "@/app/components/interfaces";
 
-export default function Project({
-  title,
-  desc,
-  tags,
-  github,
-  demo,
-}: ProjectProps) {
+const Project = ({ title, desc, tags, github, demo }: ProjectProps) => {
   return (
     <div>
       <h3>{title}</h3>
@@ -30,4 +18,6 @@ export default function Project({
       </a>
     </div>
   );
-}
+};
+
+export default Project;

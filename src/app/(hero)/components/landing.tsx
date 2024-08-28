@@ -2,12 +2,12 @@ import Image from "next/image";
 
 export default function Landing() {
   return (
-    <main className=" p-14 flex flex-col w-full h-screen bg-slate-800 ">
-      <section className="flex flex-col py-8">
-        <p className="py-4 text-xl">Hi, my name is</p>
-        <h1 className="pt-4 text-6xl">Raul Catalan</h1>
-        <p className=" text-lg">Full-Stack Web Developer / Software Engineer</p>
-        <p className="py-4">
+    <main className="">
+      <section className="">
+        <p className="">Hi, my name is</p>
+        <h1 className="">Raul Catalan</h1>
+        <p className="">Full-Stack Web Developer / Software Engineer</p>
+        <p className="">
           Turning ideas into interactive, user-friendly web applications with a
           focus on modern technologies.
         </p>
