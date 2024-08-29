@@ -5,7 +5,7 @@ import ThemeSwitch from "../components/ThemeSwitch";
 
 export default function Home() {
   return (
-    <div className="bg-white dark:bg-black">
+    <div className="px-6 py-12">
       <Landing />
       <Experiences />
       <Projects />

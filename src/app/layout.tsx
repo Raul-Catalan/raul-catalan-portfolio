@@ -18,7 +18,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en" suppressHydrationWarning>
-      <body className={inter.className}>
+      <body
+        className={`${inter.className} bg-gradient-to-b from-slate-900 to-slate-950 text-slate-400`}
+      >
         <Providers>
           <Navbar />
           {children}

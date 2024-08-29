@@ -3,7 +3,7 @@ import ThemeSwitch from "./ThemeSwitch";
 
 const Navbar = () => {
   return (
-    <nav>
+    <nav className="hidden h-6 w-full flex-row bg-blue-200 md:flex">
       <div>
         <Link href="/" className="">
           Raul Catalan
