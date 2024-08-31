@@ -19,7 +19,7 @@ const Navbar = () => {
         <Link href="/contact" className="">
           Contact Me
         </Link>
-        <ThemeSwitch />
+        //<ThemeSwitch />
       </div>
     </nav>
   );

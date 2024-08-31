@@ -5,9 +5,11 @@ export default function Landing() {
   return (
     <main className="flex max-w-lg flex-col">
       <section className="">
-        <p className="">Hi, my name is</p>
-        <h1 className="pt-0 text-4xl font-bold text-slate-200">Raul Catalan</h1>
-        <p className="py-4 text-lg font-medium text-slate-300">
+        <p className="sm:text-xl">Hi, my name is</p>
+        <h1 className="pt-0 text-4xl font-bold text-slate-200 sm:text-5xl">
+          Raul Catalan
+        </h1>
+        <p className="py-4 text-lg font-medium text-slate-300 sm:text-xl">
           Full-Stack Web Developer / Software Engineer
         </p>
         <p className="">
@@ -24,14 +26,14 @@ export default function Landing() {
           alt="Picture of Raul Catalan"
         />
       </section>
-      <ul className="flex py-8">
+      <ul className="flex py-8 text-4xl">
         <li className="pr-4 lg:pr-8">
           <a
             href="https://github.com/Raul-Catalan"
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaGithub size={30} />
+            <FaGithub />
           </a>
         </li>
         <li>
@@ -40,7 +42,7 @@ export default function Landing() {
             target="_blank"
             rel="noopener noreferrer"
           >
-            <FaLinkedin size={30} />
+            <FaLinkedin />
           </a>
         </li>
       </ul>

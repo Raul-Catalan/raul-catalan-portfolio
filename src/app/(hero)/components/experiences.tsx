@@ -1,21 +1,13 @@
 import Experience from "./experience";
-import { ExperienceProps } from "@/app/components/interfaces";
-
-const experiences: ExperienceProps[] = [
-  {
-    company: "Thaddeus Resource Center",
-    city: "San Dimas",
-    state: "California",
-    position: "Web Development Intern",
-    start: "July 2024",
-    desc: ["Testing bullet", "Testing Bullet 2"],
-  },
-];
+import { experiences } from "@/app/components/data";
 
 const Experiences = () => {
   return (
     <section>
-      <ul>
+      <h2 className="text-xl font-medium text-slate-200 sm:text-2xl">
+        Work Experience
+      </h2>
+      <ul className="py-4">
         {experiences.map((experience, index) => (
           <li key={index}>
             <Experience
@@ -25,6 +17,7 @@ const Experiences = () => {
               position={experience.position}
               start={experience.start}
               desc={experience.desc}
+              tags={experience.tags}
             />
           </li>
         ))}

@@ -13,5 +13,6 @@ export interface ExperienceProps {
   position: string;
   start: string;
   end?: string;
-  desc: string[];
+  desc: string;
+  tags: string[];
 }
