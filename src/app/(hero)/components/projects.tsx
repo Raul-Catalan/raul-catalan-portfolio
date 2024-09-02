@@ -4,7 +4,7 @@ import { projects } from "@/app/components/data";
 const Projects = () => {
   return (
     <section>
-      <h2 className="text-xl font-medium text-slate-200 sm:text-2xl">
+      <h2 className="text-lg font-medium uppercase text-slate-200 sm:text-lg">
         Projects
       </h2>
       <ul className="py-4">

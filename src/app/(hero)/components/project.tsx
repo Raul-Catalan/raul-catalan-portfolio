@@ -1,6 +1,7 @@
 import { ProjectProps } from "@/app/components/interfaces";
 import { FaGithub, FaLink } from "react-icons/fa";
 
+// TODO: Add Image of Project here
 const Project = ({ title, desc, tags, github, demo }: ProjectProps) => {
   return (
     <div className="pb-6">

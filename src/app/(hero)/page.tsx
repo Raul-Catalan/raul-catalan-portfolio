@@ -2,6 +2,7 @@ import Landing from "./components/landing";
 import Projects from "./components/projects";
 import Experiences from "./components/experiences";
 import ThemeSwitch from "../components/ThemeSwitch";
+import About from "../components/about";
 
 export default function Home() {
   return (
@@ -10,6 +11,7 @@ export default function Home() {
         <Landing />
       </div>
       <div className="flex flex-col lg:flex-1 lg:overflow-y-auto">
+        <About />
         <Experiences />
         <Projects />
       </div>
