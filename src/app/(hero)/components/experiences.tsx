@@ -3,7 +3,7 @@ import { experiences } from "@/app/components/data";
 
 const Experiences = () => {
   return (
-    <section>
+    <section className="max-w-xl">
       <h2 className="text-lg font-medium uppercase text-slate-200 sm:text-lg">
         Experience
       </h2>

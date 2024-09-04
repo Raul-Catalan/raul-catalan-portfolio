@@ -1,26 +1,17 @@
 import Link from "next/link";
-import ThemeSwitch from "./ThemeSwitch";
 
 const Navbar = () => {
   return (
-    <nav className="hidden h-6 w-full flex-row bg-blue-200 md:flex">
-      <div>
-        <Link href="/" className="">
-          Raul Catalan
-        </Link>
-      </div>
-      <div>
-        <Link href="/projects" className="">
-          Projects
-        </Link>
-        <Link href="/about" className="">
-          About
-        </Link>
-        <Link href="/contact" className="">
-          Contact Me
-        </Link>
-        //<ThemeSwitch />
-      </div>
+    <nav className="hidden text-lg uppercase text-slate-300 lg:flex lg:w-full lg:flex-col lg:items-center">
+      <Link href="#about" className="">
+        About
+      </Link>
+      <Link href="#experiences" className="">
+        Experience
+      </Link>
+      <Link href="#projects" className="">
+        Projects
+      </Link>
     </nav>
   );
 };

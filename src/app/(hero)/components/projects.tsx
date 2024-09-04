@@ -3,7 +3,7 @@ import { projects } from "@/app/components/data";
 
 const Projects = () => {
   return (
-    <section>
+    <section className="max-w-xl">
       <h2 className="text-lg font-medium uppercase text-slate-200 sm:text-lg">
         Projects
       </h2>

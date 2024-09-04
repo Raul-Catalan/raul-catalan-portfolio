@@ -1,9 +1,10 @@
+import Navbar from "@/app/components/Navbar";
 import Image from "next/image";
 import { FaGithub, FaLinkedin } from "react-icons/fa";
 
 export default function Landing() {
   return (
-    <main className="flex max-w-lg flex-col">
+    <main className="mr-4 flex max-w-xl flex-col">
       <section className="">
         <p className="sm:text-xl">Hi, my name is</p>
         <h1 className="pt-0 text-4xl font-bold text-slate-200 sm:text-5xl">
@@ -17,7 +18,7 @@ export default function Landing() {
           focus on modern technologies.
         </p>
       </section>
-      <section className="hidden lg:flex">
+      <section className="hidden py-4 lg:flex lg:justify-center">
         <Image
           src="/images/gitHubProfilePicCrop1.jpg"
           width={300}
@@ -26,7 +27,7 @@ export default function Landing() {
           alt="Picture of Raul Catalan"
         />
       </section>
-      <ul className="flex py-8 text-4xl">
+      <ul className="flex py-8 text-4xl lg:items-end lg:justify-center">
         <li className="pr-4 lg:pr-8">
           <a
             href="https://github.com/Raul-Catalan"
