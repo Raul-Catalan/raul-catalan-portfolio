@@ -22,17 +22,17 @@ export const experiences: ExperienceProps[] = [
 
 export const projects: ProjectProps[] = [
   {
-    title: "Personal Portfolio",
-    desc: "My Personal Portfolio that I built with Next.js. Mostly to showcase my technical experience, projects, and provide my socials. :)",
-    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
-    github: "https://github.com/Raul-Catalan/raul-catalan-portfolio",
-    demo: "https://www.youtube.com",
-  },
-  {
     title: "Weather App",
     desc: "A Front-End Application that consumes API and displays it for the end-user.",
     tags: ["React", "JavaScript", "HTML", "CSS", "NextJS", "TailwindCSS"],
     github: "https://www.google.com",
+    demo: "https://www.youtube.com",
+  },
+  {
+    title: "Personal Portfolio",
+    desc: "My Personal Portfolio that I built with Next.js. Mostly to showcase my technical experience, projects, and provide my socials. :)",
+    tags: ["Next.js", "React", "TypeScript", "Tailwind CSS", "HTML", "CSS"],
+    github: "https://github.com/Raul-Catalan/raul-catalan-portfolio",
     demo: "https://www.youtube.com",
   },
 ];

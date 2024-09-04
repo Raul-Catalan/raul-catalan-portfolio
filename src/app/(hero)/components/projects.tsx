@@ -8,7 +8,7 @@ const Projects = () => {
         Projects
       </h2>
       <ul className="py-4">
-        {projects.toReversed().map((project, index) => (
+        {projects.map((project, index) => (
           <li key={index}>
             <Project
               title={project.title}
