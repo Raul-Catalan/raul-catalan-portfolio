@@ -1,8 +1,17 @@
 import { ProjectProps } from "@/app/components/interfaces";
+import { Badge } from "@/components/ui/badge";
+import { Card, CardContent, CardFooter, CardHeader, CardTitle } from "@/components/ui/card";
 import { FaGithub, FaLink } from "react-icons/fa";
 
 // TODO: Add Image of Project here
-const Project = ({ title, desc, tags, github, demo }: ProjectProps) => {
+const Project = ({
+  title,
+  desc,
+  tags,
+  github,
+  demo,
+  iframeSrc,
+}: ProjectProps) => {
   return (
     <div className="pb-6">
       <h2 className="text-lg text-slate-300 sm:text-xl">{title}</h2>
@@ -31,7 +40,24 @@ const Project = ({ title, desc, tags, github, demo }: ProjectProps) => {
         </a>
       </div>
     </div>
-  );
+    );
+    
+  /*
+  return (
+    <Card>
+      <CardHeader>
+        <CardTitle>{title}</CardTitle>
+      </CardHeader>
+      <CardContent>
+
+      </CardContent>
+      <CardFooter>
+        {tags.map(( tag, index ) => (
+          <Badge key={index} className="my-1 mr-2 rounded-full bg-slate-800 px-3 py-1 text-xs text-slate-300"> {tag} </Badge>
+        ))}
+      </CardFooter>
+    </Card>
+  );*/
 };
 
 export default Project;

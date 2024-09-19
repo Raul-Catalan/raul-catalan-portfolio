@@ -4,6 +4,7 @@ export interface ProjectProps {
   tags: string[];
   github: string;
   demo: string;
+  iframeSrc?: string;
 }
 
 export interface ExperienceProps {

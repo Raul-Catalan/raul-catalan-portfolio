@@ -16,6 +16,7 @@ const Projects = () => {
               tags={project.tags}
               github={project.github}
               demo={project.demo}
+              iframeSrc={project.iframeSrc ?? "na"}
             />
           </li>
         ))}

@@ -25,6 +25,7 @@ export const projects: ProjectProps[] = [
     title: "Weather App",
     desc: "A Front-End Application that consumes API and displays it for the end-user.",
     tags: ["React", "JavaScript", "HTML", "CSS", "NextJS", "TailwindCSS"],
+    iframeSrc: "https://pokedex-app-wheat-alpha.vercel.app/",
     github: "https://www.google.com",
     demo: "https://www.youtube.com",
   },
